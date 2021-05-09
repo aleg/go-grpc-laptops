@@ -1,0 +1,23 @@
+syntax = "proto3";
+
+package aleg.laptops;
+
+// option go_package = ".;pb";
+option go_package = "github.com/aleg/go-grpc-laptops/pb";
+
+message Memory {
+  // Only visible within the context of `Memory`:
+  // it's a nested type.
+  enum Unit {
+    UNKNOWN = 0;  // always use a default
+    BIT = 1;
+    BYTE = 2;
+    KILOBYTE = 3;
+    MEGABYTE = 4;
+    GIGABYTE = 5;
+    TERABYTE = 6;
+  }
+
+  uint64 value = 1;
+  Unit unit = 2;
+}

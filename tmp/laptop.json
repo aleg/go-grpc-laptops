@@ -1,0 +1,62 @@
+{
+  "id": "1600717f-8817-49c1-a010-89b770bed916",
+  "brand": "Dell",
+  "name": "XPS",
+  "cpu": {
+    "brand": "AMD",
+    "name": "Ryzen 7 PRO 2700U",
+    "number_cores": 3,
+    "number_threads": 10,
+    "min_ghz": 3.370489104995706,
+    "max_ghz": 4.276810904668222
+  },
+  "ram": {
+    "value": "5",
+    "unit": 5
+  },
+  "gpus": [
+    {
+      "brand": "Nvidia",
+      "name": "GTX 1660-Ti",
+      "min_ghz": 1.3437027464167484,
+      "max_ghz": 1.3441653893942975,
+      "memory": {
+        "value": "5",
+        "unit": 5
+      }
+    }
+  ],
+  "storages": [
+    {
+      "driver": 2,
+      "memory": {
+        "value": "428",
+        "unit": 5
+      }
+    },
+    {
+      "driver": 1,
+      "memory": {
+        "value": "3",
+        "unit": 6
+      }
+    }
+  ],
+  "screen": {
+    "size_inch": 13.461816,
+    "resolution": {
+      "width": 5059,
+      "height": 2846
+    },
+    "panel": 1,
+    "multitouch": false
+  },
+  "keyboard": {
+    "layout": 2,
+    "backlit": false
+  },
+  "weight_kg": 2.4790822745594197,
+  "price_usd": 1536.5470784842285,
+  "release_year": 2018,
+  "updated_at": "2021-05-01T13:28:28.991537Z"
+}

@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+package aleg.laptops;
+
+// option go_package = ".;pb";
+option go_package = "github.com/aleg/go-grpc-laptops/pb";
+
+message Keyboard {
+  enum Layout {
+    UNKNOWN = 0;
+    QWERTY = 1;
+    QWERTZ = 2;
+    AZERTY = 3;
+  }
+
+  Layout layout = 1;  // this is an integer! (0 to 3)
+  bool backlit = 2;
+}
